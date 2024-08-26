@@ -1,4 +1,4 @@
-# My simple Clojure setup for Neovim
+# My simple Clojure setup for Neovim/NvChad
 
 ## Usage
 
