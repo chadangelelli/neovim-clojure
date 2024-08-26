@@ -36,3 +36,9 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.g["conjure#log#wrap"] = true
+vim.g["conjure#log#hud#border"] = "single"
+vim.g["conjure#log#hud#anchor"] = "SE"
+vim.g["conjure#log#hud#width"] = 1.0
+vim.g["conjure#log#hud#height"] = 0.42
