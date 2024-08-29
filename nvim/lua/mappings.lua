@@ -19,7 +19,9 @@ map({ 'n', 'x' }, '<leader>Y', '"+yg_', { desc = 'Copy from system clipboard' })
 map({ 'n', 'x' }, '<leader>p', '"+p', { desc = 'Paste from system clipboard' })
 map({ 'n', 'x' }, '<leader>P', '"+P', { desc = 'Paste from system clipboard' })
 
-map ("n", "<leader>j", "<cmd> ALENext <cr>",
+map("n", "<leader>j", "<cmd> ALENext <cr>",
   { desc = "Go to next ALE issue" })
-map ("n", "<leader>k", "<cmd> ALEPrevious <cr>",
+map("n", "<leader>k", "<cmd> ALEPrevious <cr>",
   { desc = "Go to previous ALE issue" })
+
+map({ "n", "x", "i" }, "<C-c>", "<ESC>")
